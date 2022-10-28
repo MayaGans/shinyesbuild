@@ -1,0 +1,23 @@
+{
+  "name": "shinyesbuild",
+  "version": "1.0.0",
+  "description": "--- output: github_document ---",
+  "main": "index.js",
+  "directories": {
+    "man": "man"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayaGans/shinyesbuild.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayaGans/shinyesbuild/issues"
+  },
+  "homepage": "https://github.com/MayaGans/shinyesbuild#readme"
+}

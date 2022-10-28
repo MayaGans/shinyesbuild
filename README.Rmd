@@ -3,4 +3,26 @@ output: github_document
 ---
 
 # Step 1: Initialize Golem App
+
+I generally do this by creating a new project and selecting Golem app
+
 # Step 2: Set Title to div to be populated by JS
+
+app_ui <- function(request) {
+  tagList(
+    # Leave this function for adding external resources
+    golem_add_external_resources(),
+    # Your application UI logic 
+    fluidPage(
+      h1(id="title")
+    )
+  )
+}
+
+# Step 3: Initalize NPM library 
+
+```{js}
+npm init -y
+```
+
+This will create a package.json. You can kind of think of this as the JS version of a `DESCRIPTION` file
