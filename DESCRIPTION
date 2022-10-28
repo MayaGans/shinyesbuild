@@ -1,0 +1,14 @@
+Package: shinyesbuild
+Title: Shiny & ESBuild
+Version: 0.0.0.9000
+Authors@R: person('Maya', 'Gans', email = 'maya.gans@atorusresearch.com', role = c('cre', 'aut'))
+Description: An example of Shiny and bundling code for JS
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    golem (>= 0.3.1),
+    pkgload,
+    shiny (>= 1.6.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
