@@ -8,6 +8,7 @@ I generally do this by creating a new project and selecting Golem app
 
 # Step 2: Set Title to div to be populated by JS
 
+```
 app_ui <- function(request) {
   tagList(
     # Leave this function for adding external resources
@@ -18,10 +19,11 @@ app_ui <- function(request) {
     )
   )
 }
+```
 
 # Step 3: Initalize NPM library 
 
-```{js}
+```
 npm init -y
 ```
 
@@ -31,8 +33,14 @@ This will create a package.json. You can kind of think of this as the JS version
 
 Add our bundler using: 
 
-```{js}
+```
 npm install esbuild
 ```
 
 This will add `esbuild` as a dependency to our package, as well as a folder called `node_modules` that contains all the libraries we'll be adding. Think of this folder like a local `renv`. ADD THIS FOLDER TO YOUR GIT IGNORE OR PEOPLE WILL MAKE FUN OF YOU!!
+
+# Step 5 
+
+Add `src` folder with JavaScript files that we'll be bundling. Think of this kind of like an `R` folder in a package, but where we need to `source()` files so that they "know" about each other.
+
+

@@ -1,0 +1,3 @@
+export default getHeaderText(conf) {
+  return "I'm so excited for " + conf
+}
