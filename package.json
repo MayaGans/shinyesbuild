@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/MayaGans/shinyesbuild/issues"
   },
-  "homepage": "https://github.com/MayaGans/shinyesbuild#readme"
+  "homepage": "https://github.com/MayaGans/shinyesbuild#readme",
+  "dependencies": {
+    "esbuild": "^0.15.5"
+  }
 }

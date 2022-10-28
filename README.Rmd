@@ -26,3 +26,13 @@ npm init -y
 ```
 
 This will create a package.json. You can kind of think of this as the JS version of a `DESCRIPTION` file
+
+# Step 4 Add ESBuild
+
+Add our bundler using: 
+
+```{js}
+npm install esbuild
+```
+
+This will add `esbuild` as a dependency to our package, as well as a folder called `node_modules` that contains all the libraries we'll be adding. Think of this folder like a local `renv`. ADD THIS FOLDER TO YOUR GIT IGNORE OR PEOPLE WILL MAKE FUN OF YOU!!
