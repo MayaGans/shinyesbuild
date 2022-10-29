@@ -54,3 +54,5 @@ Create JS file we want to actually use in Shiny called `index.js`. Set that as t
 ```
 
 and run `npm run build` in order to create the `out.js` file
+
+# Run the app and see your code in action!
