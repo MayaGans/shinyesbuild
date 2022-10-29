@@ -43,4 +43,14 @@ This will add `esbuild` as a dependency to our package, as well as a folder call
 
 Add `src` folder with JavaScript files that we'll be bundling. Think of this kind of like an `R` folder in a package, but where we need to `source()` files so that they "know" about each other.
 
+# Step 6 
 
+Create JS file we want to actually use in Shiny called `index.js`. Set that as the file to be bundled and the output file to `out.js`. Make sure to put `out.js` inside `inst/app/www` as that is where golem tracks files. To do this we add the build script in our `package.json`
+
+```
+"scripts": {
+    "build": "esbuild index.js --bundle --outfile=./inst/app/www/out.js",
+  },
+```
+
+and run `npm run build` in order to create the `out.js` file
